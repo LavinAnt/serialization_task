@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ded18de0-a43a-4b8a-a996-1848e4dd18a4" name="Changes" comment="simple serialization">
+    <list default="true" id="ded18de0-a43a-4b8a-a996-1848e4dd18a4" name="Changes" comment="fin for check">
+      <change afterPath="$PROJECT_DIR$/src/main/java/aston/serialization/task/Deserializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/aston/serialization/task/SerializationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/aston/serialization/task/Serializer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/aston/serialization/task/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aston/serialization/task/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/aston/serialization/task/Deserializer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/aston/serialization/task/Serializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/aston/serialization/task/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aston/serialization/task/Person.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +53,15 @@
       <recent name="aston.serialization.task" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="SerializationTaskTest" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="aston.serialization.task.App" />
+      <module name="serialization_task" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -90,12 +102,21 @@
       <option name="project" value="LOCAL" />
       <updated>1715096757703</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="fin for check">
+      <option name="closed" value="true" />
+      <created>1715102519620</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1715102519620</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="start task" />
     <MESSAGE value="simple serialization" />
-    <option name="LAST_COMMIT_MESSAGE" value="simple serialization" />
+    <MESSAGE value="fin for check" />
+    <option name="LAST_COMMIT_MESSAGE" value="fin for check" />
   </component>
 </project>
