@@ -1,4 +1,4 @@
-package aston.serialization.task;
+package aston.serialization.task.entity;
 
 import java.io.Serial;
 import java.io.Serializable;
@@ -7,13 +7,14 @@ import java.util.Objects;
 
 public class Person implements Serializable {
     @Serial
-    private static final long serialVersionUID = 1L;
+    private static final long serialVersionUID = -7471884070421971420L;
     private int age;
     private String name;
     private int id;
 
     public Person() {
     }
+
     public Person(int age, String name, int id) {
         this.age = age;
         this.name = name;
@@ -56,6 +57,7 @@ public class Person implements Serializable {
     public int hashCode() {
         return Objects.hash(getAge(), getName(), getId());
     }
+
     @Override
     public String toString() {
         return "Person{" +
