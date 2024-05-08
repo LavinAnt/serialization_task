@@ -11,7 +11,7 @@ public class Deserializer {
             throw new SerializationException("File exists");
         }
         ObjectMapper mapper = new ObjectMapper();
-        Person person = new Person();
+        Person person;
         try {
             person = mapper.readValue(file, Person.class);
         } catch (IOException e) {
